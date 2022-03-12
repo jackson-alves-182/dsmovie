@@ -2,7 +2,7 @@ import Pagination from "components/Pagination";
 import MovieCard from "components/MovieCard";
 import axios from "axios";
 import {useState, useEffect} from "react";
-import { BASE_URL } from "util/requests";
+import { BASE_URL } from "utils/requests";
 import { MoviePage} from 'types/movie';
 
 
@@ -30,13 +30,14 @@ function Listing() {
       });
   }, [pageNumber]);
 
-  const handlePageChange = (newPageNumber : number ) =>{
+  const handlePageChange = (newPageNumber : number ) => {
     setPageNumber(newPageNumber);
   }
 
   return (
     <>
       <Pagination page ={page} onChange={handlePageChange}/>
+
       <div className="container">
         <div className="row">
           {page.content.map(movie => (
