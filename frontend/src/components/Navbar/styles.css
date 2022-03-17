@@ -1,7 +1,7 @@
 
 
 header{
-    background-color: var(--color-primary) ;
+    background-color: rgb(206, 24, 24) ;
     height: 60px;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: rgb(245, 237, 237);
 }
 
 .dsmovie-nav-content h1{
