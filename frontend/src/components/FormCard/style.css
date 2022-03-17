@@ -15,7 +15,7 @@
 
 .dsmovie-form-group label {
     font-size: 14px;
-    color: #aaa;
+    color: rgb(0, 0, 0);
 }
 
 .dsmovie-form-btn-container {
@@ -35,15 +35,18 @@
     align-items: center;
     padding: 10px 15px 20px 10px;
     border-radius: 0 0 100px 8px;
+    background-color: rgb(239, 243, 243);
 }
 
 .dsmovie-card-bottom-container h3 {
-    color: #4A4A4A;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    min-height: 30px;
-    font-family: 'Carter One', cursive;
+    margin-top: 6px;
+    color: #000000;
+    text-align:center;
+    font-size:large;
+    font-weight: 400;
+    min-height: 45px;
+    font-family: 'Fredoka One', cursive;
+    
 }
 
 .dsmovie-btn {

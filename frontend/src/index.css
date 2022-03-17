@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 :root {
-  --color-primary: #642ec7;
+  --color-primary: #814dd4;
 }
 
 * {
@@ -12,7 +14,7 @@
 }
 
 html, body {
-    background-color: #E5E5E5;
+    background-color: #312f2f;
 }
 
 a, a:hover {
